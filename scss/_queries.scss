@@ -6,13 +6,21 @@
 /* Cierre */
 
 /* Media Queries Index */
-    .boton-reserva {
+    section#inicio .inicio-contenido .boton-reserva {
         width: 100%;
         padding: 15px;
     }
-
-    .video0 {
+    .blog-posts {
+        display: flex;
+        flex-direction: column; /* Cambia la dirección del flujo a columna */
         justify-content: center;
+        align-items: center; /* Alinea los elementos al centro */
+    }
+
+    .blog-post {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px; /* Agrega un margen inferior entre los posts */
     }
 /* Cierre */
 

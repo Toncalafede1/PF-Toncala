@@ -1,7 +1,6 @@
 /* Index Main */
 section#inicio {
-    height: 800px;
-    background-image: url('../../img/imgresto.webp');
+    background-image: url(../img/imgresto.webp);
     background-size: 100% auto;
     background-position: center;
     text-align: center;
@@ -35,6 +34,7 @@ section#inicio {
         padding: 50px 0;
         text-align: center;
         background-color: #212529;
+        margin: 10px;
         h2 {
             color: aliceblue;
             margin-bottom: 20px;
