@@ -1,3 +1,9 @@
+.contacto .mapa, section#inicio .inicio-contenido .boton-reserva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* General */
 * {
   padding: 0;
@@ -15,7 +21,7 @@ body {
 /* Index Main */
 section#inicio {
   height: 800px;
-  background-image: url(../img/imgresto.webp);
+  background-image: url("../../img/imgresto.webp");
   background-size: 100% auto;
   background-position: center;
   text-align: center;
@@ -30,8 +36,6 @@ section#inicio .inicio-contenido h1 {
   color: black;
 }
 section#inicio .inicio-contenido .boton-reserva {
-  display: flex;
-  justify-content: center;
   width: 10%;
   margin: 0 auto;
   background-color: #333;
@@ -91,50 +95,32 @@ section#inicio .video0 {
   background-color: #555;
 }
 
-.btn-leer-mas {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.btn-leer-mas:hover {
-  background-color: #555;
-}
 /* Cierre */
 /* Nosotros Main */
 .fondo {
   background-color: black;
 }
-
-.nosotros {
+.fondo .nosotros {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
 }
-
-.nosotros .contenido {
+.fondo .nosotros .contenido {
   flex: 1;
   margin-right: 20px;
 }
-
-.nosotros h1 {
+.fondo .nosotros h1 {
   font-size: 24px;
   margin-bottom: 20px;
   color: aliceblue;
 }
-
-.nosotros p {
+.fondo .nosotros p {
   font-size: 16px;
   line-height: 1.5;
   color: aliceblue;
 }
-
-.nosotros .imagen img {
+.fondo .nosotros .imagen img {
   max-width: 100%;
   height: auto;
   padding-top: 20%;
@@ -153,16 +139,14 @@ section#inicio .video0 {
   padding: 20px;
   text-align: center;
 }
-
-.menu-section {
+.menu-container .menu-section {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 10px;
   color: black;
   background-color: #f8f9fa;
 }
-
-.precio {
+.menu-container .precio {
   font-weight: bold;
   color: #FFD700;
 }
@@ -183,8 +167,7 @@ section#inicio .video0 {
 .container {
   padding: 15px;
 }
-
-.card {
+.container .card {
   background-color: #f8f9fa;
   border: 1px solid gold;
   padding: 20px;
@@ -197,79 +180,61 @@ section#inicio .video0 {
 .contacto {
   padding: 40px;
 }
-
 .contacto .contenido1 {
   flex: 1;
 }
-
 .contacto h1 {
   font-size: 24px;
   margin-top: 35px;
   color: aliceblue;
   text-align: center;
 }
-
 .contacto p {
   font-size: 16px;
   line-height: 1.5;
   color: aliceblue;
   text-align: center;
 }
-
-.mapa {
+.contacto .mapa {
   margin-top: 20px;
   width: 100%;
   height: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
-
-.mapa iframe {
+.contacto .mapa iframe {
   max-width: 100%;
   max-height: 80vh;
 }
-
-.mapa ul {
+.contacto .mapa ul {
   list-style: none;
   padding: 0;
 }
-
-.mapa ul li {
+.contacto .mapa ul li {
   color: aliceblue;
 }
-
 .contacto .formulario {
   flex: 1;
-}
-
-.formulario {
   background-color: rgb(255, 255, 255);
   padding: 40px;
   margin-top: 20px;
   border-radius: 5px;
 }
-
-.formulario h2 {
+.contacto .formulario h2 {
   font-size: 20px;
   margin-bottom: 20px;
 }
-
-.formulario label {
+.contacto .formulario label {
   display: flex;
   margin-bottom: 10px;
 }
-
-.formulario input {
+.contacto .formulario input {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 3px;
 }
-
-.formulario button {
+.contacto .formulario button {
   background-color: rgb(51, 51, 51);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
@@ -284,8 +249,7 @@ footer {
   margin-top: auto;
   background-color: #f8f9fa;
 }
-
-li a {
+footer li a {
   text-decoration-line: none;
   color: #212529;
 }
@@ -296,8 +260,8 @@ li a {
   .nav-item {
     text-align: left;
   }
-/* Cierre */
-/* Media Queries Index */
+  /* Cierre */
+  /* Media Queries Index */
   .boton-reserva {
     width: 100%;
     padding: 15px;
@@ -305,8 +269,8 @@ li a {
   .video0 {
     justify-content: center;
   }
-/* Cierre */
-/* Media Queries Nosotros */
+  /* Cierre */
+  /* Media Queries Nosotros */
   .nosotros {
     display: flex;
     flex-direction: column;
@@ -328,54 +292,52 @@ li a {
   .nosotros .imagen img {
     padding-top: 10%;
   }
-/* Cierre */
-/* Media Queries Menu */
+  /* Cierre */
+  /* Media Queries Menu */
   .menu-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .menu-section {
+  .menu-container .menu-section {
     margin-bottom: 20px;
   }
-  .menu-section h3 {
+  .menu-container .menu-section h3 {
     margin-top: 20px;
   }
   .carousel-item img {
     height: 600px;
     width: 400px;
   }
-/* Cierre */
-/* Media Queries Eventos */
+  /* Cierre */
+  /* Media Queries Eventos */
   .card {
     width: 100%;
-    margin: 10px auto; 
+    margin: 10px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-/* Cierre */
-/* Media Queries Contacto */
+  /* Cierre */
+  /* Media Queries Contacto */
   .contenido1,
   div ul li {
     text-align: center;
   }
-/* Cierre */
-/* Media Queries Footer General */
+  /* Cierre */
+  /* Media Queries Footer General */
   footer {
     text-align: center;
     padding: 20px;
     font-size: 15px;
   }
-  ul {
+  footer ul {
     display: flex;
     justify-content: center;
     padding: 0;
   }
-  ul li {
+  footer ul li {
     margin: 0 10px;
   }
 }
-/* Cierre */
-
-/*# sourceMappingURL=style.css.map */
+/* Cierre *//*# sourceMappingURL=style.css.map */
