@@ -1,5 +1,5 @@
 /* Media Queries Header General */
-@media (min-width:320px) and (max-width:480px) {
+@media all and (max-width: 768px) {
     .nav-item {
         text-align: left;
     }
@@ -68,7 +68,7 @@
 /* Media Queries Eventos */
     .card {
         width: 100%;
-        margin: 10px auto; 
+        margin: 20px auto; 
         text-align: center;
         display: flex;
         flex-direction: column;
