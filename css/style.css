@@ -341,9 +341,6 @@ li a {
     font-size: 14px;
     text-align: center;
   }
-  .nosotros .imagen img {
-    padding-top: 10%;
-  }
 /* Cierre */
 /* Media Queries Menu */
   .menu-container {
@@ -354,10 +351,6 @@ li a {
   }
   .menu-section h3 {
     margin-top: 20px;
-  }
-  .carousel-item img {
-    height: 600px;
-    width: 400px;
   }
 /* Cierre */
 /* Media Queries Eventos */
