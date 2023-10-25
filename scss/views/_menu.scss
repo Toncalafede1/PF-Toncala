@@ -15,17 +15,20 @@
         border-radius: 10px;
         color: black;
         background-color: $color-fondo;
-    }
-    .precio {
-        font-weight: bold;
-        color: #FFD700;
+        h3{
+            padding: 20px;
+        }
+        .precio {
+            font-weight: bold;
+            color: #FFD700;
+        }
     }
 }
 
 #carouselExampleIndicators {
     max-width: 400px;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .carousel-item img {

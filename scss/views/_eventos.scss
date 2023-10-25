@@ -1,6 +1,10 @@
 /*Eventos  Main  */
 .container {
     padding: 15px;
+    .parrafo{
+        color: $color-principal;
+        text-align: center;
+    }
     .card {
         background-color: $color-fondo;
         border: 1px solid gold;
