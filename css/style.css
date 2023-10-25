@@ -130,6 +130,9 @@ section#inicio .video0 {
   line-height: 1.5;
   color: aliceblue;
 }
+.fondo .nosotros .carousel{
+  width: 100%;
+}
 .fondo .nosotros #carouselExampleSlidesOnly {
   max-width: 400px;
   margin: 0 auto;
@@ -173,7 +176,7 @@ section#inicio .video0 {
 #carouselExampleIndicators {
   max-width: 400px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 .carousel-item img {
@@ -354,7 +357,7 @@ li a {
   }
 /* Cierre */
 /* Media Queries Eventos */
-  .card {
+  .container .card {
     width: 100%;
     margin: 20px auto; 
     text-align: center;
