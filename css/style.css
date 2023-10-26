@@ -29,7 +29,6 @@ section#inicio .inicio-contenido h1 {
   color: black;
 }
 section#inicio .inicio-contenido .boton-reserva {
-  margin: 0 auto;
   background-color: #333;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
@@ -290,8 +289,8 @@ section#inicio .video0 {
 /* Cierre */
 /* Footer General */
 footer {
-  margin-top: auto;
   background-color: #f8f9fa;
+  padding: 30px 0;
 }
 
 li a {
