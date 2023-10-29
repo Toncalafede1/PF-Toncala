@@ -101,6 +101,7 @@ section#inicio .video0 {
   background-color: #555;
 }
 /* Cierre */
+
 /* Nosotros Main */
 .fondo {
   background-color: black;
@@ -141,8 +142,8 @@ section#inicio .video0 {
   height: 600px;
   width: 500px;
 }
-
 /* Cierre */
+
 /* Menu Main */
 .text-center {
   color: aliceblue;
@@ -182,8 +183,8 @@ section#inicio .video0 {
   height: 600px;
   width: 400px;
 }
-
 /* Cierre */
+
 /*Eventos  Main  */
 .container {
   padding: 15px;
@@ -199,8 +200,8 @@ section#inicio .video0 {
   width: 90%;
   margin: 30px;
 }
-
 /* Cierre */
+
 /*Contacto  Main  */
 .contacto {
   padding: 40px;
@@ -224,7 +225,7 @@ section#inicio .video0 {
   text-align: center;
 }
 
-.mapa {
+.contacto .mapa {
   margin-top: 20px;
   width: 100%;
   height: 100%;
@@ -234,42 +235,39 @@ section#inicio .video0 {
   justify-content: center;
 }
 
-.mapa iframe {
+.contacto .mapa iframe {
   max-width: 100%;
   max-height: 80vh;
 }
 
-.mapa ul {
+.contacto .mapa ul {
   list-style: none;
   padding: 0;
 }
 
-.mapa ul li {
+.contacto .mapa ul li {
   color: aliceblue;
 }
 
 .contacto .formulario {
   flex: 1;
-}
-
-.formulario {
   background-color: rgb(255, 255, 255);
   padding: 40px;
   margin-top: 20px;
   border-radius: 5px;
 }
 
-.formulario h2 {
+.contacto .formulario h2 {
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-.formulario label {
+.contacto .formulario label {
   display: flex;
   margin-bottom: 10px;
 }
 
-.formulario input {
+.contacto .formulario input {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -277,7 +275,7 @@ section#inicio .video0 {
   border-radius: 3px;
 }
 
-.formulario button {
+.contacto .formulario button {
   background-color: rgb(51, 51, 51);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
@@ -285,8 +283,8 @@ section#inicio .video0 {
   border-radius: 3px;
   cursor: pointer;
 }
-
 /* Cierre */
+
 /* Footer General */
 footer {
   background-color: #f8f9fa;
@@ -297,14 +295,15 @@ li a {
   text-decoration-line: none;
   color: #212529;
 }
-
 /* Cierre */
+
 /* Media Queries Header General */
 @media all and (max-width: 768px) {
   .nav-item {
     text-align: left;
   }
 /* Cierre */
+
 /* Media Queries Index */
   section#inicio .inicio-contenido .boton-reserva {
     display: flex;
@@ -314,14 +313,14 @@ li a {
   }
   .blog-posts {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del flujo a columna */
+    flex-direction: column; 
     justify-content: center;
-    align-items: center; /* Alinea los elementos al centro */
+    align-items: center; 
 }
 .blog-post {
     max-width: 80%;
     margin: 0 auto;
-    margin-bottom: 20px; /* Agrega un margen inferior entre los posts */
+    margin-bottom: 20px; 
 }
 /* Cierre */
 /* Media Queries Nosotros */
@@ -344,17 +343,19 @@ li a {
     text-align: center;
   }
 /* Cierre */
+
 /* Media Queries Menu */
   .menu-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .menu-section {
+  .menu-container .menu-section {
     margin-bottom: 20px;
   }
-  .menu-section h3 {
+  .menu-container .menu-section h3 {
     margin-top: 20px;
   }
 /* Cierre */
+
 /* Media Queries Eventos */
   .container .card {
     width: 100%;
@@ -366,24 +367,26 @@ li a {
     align-items: center;
   }
 /* Cierre */
+
 /* Media Queries Contacto */
   .contenido1,
   div ul li {
     text-align: center;
   }
 /* Cierre */
+
 /* Media Queries Footer General */
   footer {
     text-align: center;
     padding: 20px;
     font-size: 15px;
   }
-  ul {
+  footer ul {
     display: flex;
     justify-content: center;
     padding: 0;
   }
-  ul li {
+  footer ul li {
     margin: 0 10px;
   }
 }
